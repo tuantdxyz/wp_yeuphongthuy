@@ -1,0 +1,12 @@
+{
+    "/frontend/v1/dist/bundle.js": "/frontend/v1/dist/bundle.js",
+    "/frontend/v2/dist/bundle.js": "/frontend/v2/dist/bundle.js",
+    "/frontend/v2/dist/version-switch.js": "/frontend/v2/dist/version-switch.js",
+    "/frontend/v1/dist/css/style.css": "/frontend/v1/dist/css/style.css",
+    "/frontend/v1/dist/css/conflux.css": "/frontend/v1/dist/css/conflux.css",
+    "/frontend/v2/dist/css/gopro.css": "/frontend/v2/dist/css/gopro.css",
+    "/frontend/v2/dist/css/admin.css": "/frontend/v2/dist/css/admin.css",
+    "/frontend/v2/dist/css/style.css": "/frontend/v2/dist/css/style.css",
+    "/frontend/v1/dist/css/gopro.css": "/frontend/v1/dist/css/gopro.css",
+    "/frontend/v1/dist/css/admin.css": "/frontend/v1/dist/css/admin.css"
+}

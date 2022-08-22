@@ -1,0 +1,30 @@
+====== Hướng dẫn deploy ======
+1. Copy thư mục trong "html" vào thư mục deploy
+2. Restore vào DB >> Mysql >> database name = "wpdb"
+
+Edit:
+	- Edit home page
+	- Change IP to host = Better Search Replace
+	- RUN WP: http://localhost:8080/
+
+==============================
+
+====== Dành cho dev ======
+Deploy với nginx:
+copy thư mục "html" tới "/usr/share/nginx/html/"
+mysql v10:
+	- create schema mysql: wpdb
+	- backup: mysqldump -u admin -p wpdb > /etc/yeuphongthuy_20222208.sql
+	- restore: mysql -u admin -p wpdb < /etc/yeuphongthuy_20222208.sql
+
+====== Lưu ý ======
+docker-compose up -d
+
+MAP VOLUMN từ ngoài vào trong:
+ - /var/lib/mysql
+ - /var/www/html
+ 
+RUN WP: http://localhost:8080/
+
+Dữ liệu bài viết, hình ảnh được lưu trong Database. không copy trực tiếp lên host được.
+====== TuanTD WP@2022 ======

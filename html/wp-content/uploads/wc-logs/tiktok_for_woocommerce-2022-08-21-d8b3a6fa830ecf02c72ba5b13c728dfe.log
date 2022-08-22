@@ -1,0 +1,62 @@
+2022-08-21T06:17:39+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_6301ce0313228","smb_name":"PROD","redirect_url":"http:\/\/172.16.9.29:8080\/wp-admin\/"}
+
+2022-08-21T06:17:44+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5001 milliseconds with 0 bytes received
+
+2022-08-21T06:17:44+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+X-Tt-Logid: 202208210617440102452441990B0F1049,202208210617440102452441990B0F1049
+x-tt-trace-host: 01ac71df6d2804f33e37554015b8f66cd4d7851b5a4c558a622026892f1d7b85b40ad0a06b7c99df3c4059d090067291a71ad2be1aef98df73fb9b1cf52f9e4132a9a92d28a358197319ec866b60ef6a488d3d4648638d42258e90fb9e65c90d75
+Content-Encoding: gzip
+Content-Length: 204
+X-Origin-Response-Time: 28,23.44.5.126
+X-Akamai-Request-ID: ba021dec.ae12765c
+Date: Sun, 21 Aug 2022 06:17:44 GMT
+X-Cache: TCP_MISS from a23-219-172-197.deploy.akamaitechnologies.com (AkamaiGHost/10.9.1-42763970) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-44-5-126.deploy.akamaitechnologies.com (AkamaiGHost/10.9.1-42763970) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=42, origin; dur=28
+Server-Timing: inner; dur=23
+X-Parent-Response-Time: 61,23.219.172.197
+
+{"code":0,"msg":"ok","data":{"redirect_uri":"http:\/\/172.16.9.29:8080\/wp-admin\/","app_secret":"5a3de5682f1b564713a4982ccbff4322fd56e59a","external_data_key":"762377f2-710c-4182-b518-ae4d6f43aec0","app_id":"7134209798391742466"}}
+
+2022-08-21T06:20:53+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-08-21T06:20:53+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-08-21T06:22:07+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-08-21T06:22:07+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-08-21T06:24:58+00:00 DEBUG Tt4b_Menu_Class::tt4b_admin_menu_main: external_data: eyJleHRlcm5hbF9idXNpbmVzc19pZCI6InR0NGJfd29vY29tbWVyY2VfNjMwMWNlMDMxMzIyOCIsImJ1c2luZXNzX3BsYXRmb3JtIjoiV09PX0NPTU1FUkNFIiwibG9jYWxlIjoidmkiLCJ2ZXJzaW9uIjoiMS41IiwidGltZXN0YW1wIjoiMTY2MTA2MzA5ODAwMCIsInRpbWV6b25lIjoiR01UKzAwOjAwIiwiY291bnRyeV9yZWdpb24iOiJWTiIsImVtYWlsIjoidHVhbnRkeHl6QGdtYWlsLmNvbSIsImluZHVzdHJ5X2lkIjoiMjkxNDA4Iiwic3RvcmVfbmFtZSI6IndwIiwiY3VycmVuY3kiOiJWTkQiLCJ3ZWJzaXRlX3VybCI6Imh0dHA6Ly8xNzIuMTYuOS4yOTo4MDgwIiwiZG9tYWluIjoiaHR0cDovLzE3Mi4xNi45LjI5OjgwODAiLCJhcHBfaWQiOiI3MTM0MjA5Nzk4MzkxNzQyNDY2IiwicmVkaXJlY3RfdXJpIjoiaHR0cDovLzE3Mi4xNi45LjI5OjgwODAvd3AtYWRtaW4vIiwiaG1hYyI6IjY4OWY4MWE1NzE5MzNjYTNiMjFiNmRkY2U2MzQ3MzExZWJhNWNlYzFmN2Q1NDBlNDQ5ZjllMzQ1OTAzNzc3ZTYiLCJjbG9zZV9tZXRob2QiOiJyZWRpcmVjdF9pbnNpZGVfdGlrdG9rIiwiaXNfZW1haWxfdmVyaWZpZWQiOnRydWUsImlzX3ZlcmlmaWVkIjp0cnVlLCJuZXRfZ212IjpbeyJpbnRlcnZhbCI6IkxJRkVUSU1FIiwibWluIjowLCJtYXgiOjAsInVuaXQiOiJDVVJSRU5DWSJ9XSwibmV0X29yZGVyX2NvdW50IjpbeyJpbnRlcnZhbCI6IkxJRkVUSU1FIiwibWluIjowLCJtYXgiOjAsInVuaXQiOiJDT1VOVCJ9XSwidGVudXJlIjp7Im1pbiI6MCwidW5pdCI6IkRBWVMifSwiZXh0cmFfZGF0YSI6IntcInZlcnNpb25cIjpcIjEuMC43XCJ9In0=
+2022-08-21T06:25:15+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/disconnect/
+
+{"external_business_id":"tt4b_woocommerce_6301ce0313228","business_platform":"WOO_COMMERCE","is_setup_page":0,"app_id":"7134209798391742466"}
+
+2022-08-21T06:25:15+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Content-Length: 103
+X-Api-Deprecation-Date: 2022-08-15T00:00:00Z
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740579480076290.
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 20220821062515010251004202090F0B8B
+Server-Timing: inner; dur=4
+x-tt-trace-host: 01ac71df6d2804f33e37554015b8f66cd4cd2173ff28afed8671ce73c19d51188f28cfcb0cfc49b4bd91e6adcd4a7ebbb2d7dc4747f93e83def8c997f8cb12e6b816f675690245eb801e0bd7b362bd543b
+Date: Sun, 21 Aug 2022 06:25:15 GMT
+X-Cache: TCP_MISS from a23-219-172-155.deploy.akamaitechnologies.com (AkamaiGHost/10.9.1-42763970) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=7, origin; dur=38
+X-Origin-Response-Time: 39,23.219.172.155
+X-Akamai-Request-ID: 61b46d7e
+
+{"code":40104,"message":"The access_token is empty.","request_id":"20220821062515010251004202090F0B8B"}
+

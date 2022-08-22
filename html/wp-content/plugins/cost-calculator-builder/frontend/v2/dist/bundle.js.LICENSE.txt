@@ -1,0 +1,71 @@
+/*!
+ * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2020
+ * @version 1.3.6
+ *
+ * Date formatter utility library that allows formatting date/time variables or Date objects using PHP DateTime format.
+ * This library is a standalone javascript library and does not depend on other libraries or plugins like jQuery. The
+ * library also adds support for Universal Module Definition (UMD).
+ * 
+ * @see http://php.net/manual/en/function.date.php
+ *
+ * For more JQuery plugins visit http://plugins.krajee.com
+ * For more Yii related demos visit http://demos.krajee.com
+ */
+
+/*!
+ * Sizzle CSS Selector Engine v2.3.6
+ * https://sizzlejs.com/
+ *
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://js.foundation/
+ *
+ * Date: 2021-02-16
+ */
+
+/*!
+ * Vue.js v2.6.10
+ * (c) 2014-2019 Evan You
+ * Released under the MIT License.
+ */
+
+/*!
+ * jQuery JavaScript Library v3.6.0
+ * https://jquery.com/
+ *
+ * Includes Sizzle.js
+ * https://sizzlejs.com/
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
+ *
+ * Date: 2021-03-02T17:08Z
+ */
+
+/**
+ * vuex v3.1.1
+ * (c) 2019 Evan You
+ * @license MIT
+ */
+
+/**!
+ * Sortable 1.10.2
+ * @author	RubaXa   <trash@rubaxa.org>
+ * @author	owenm    <owen23355@gmail.com>
+ * @license MIT
+ */
+
+//! Copyright (c) JS Foundation and other contributors
+
+//! github.com/moment/moment-timezone
+
+//! license : MIT
+
+//! moment-timezone.js
+
+//! moment.js
+
+//! moment.js locale configuration
+
+//! version : 0.5.34

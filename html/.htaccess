@@ -1,0 +1,22 @@
+# BEGIN WordPress
+# Các nội dung nằm giữa "BEGIN WordPress" và "END WordPress" được tạo ra tự động, và chỉ nên được thay đổi thông qua các filter của WordPress. Mọi thay đổi tới thành phần này có thể sẽ bị mất và ghi đè.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^android-chrome-96x96\.png /wp-content/uploads/fbrfg/android-chrome-96x96.png [QSA,L]
+RewriteRule ^apple-touch-icon\.png /wp-content/uploads/fbrfg/apple-touch-icon.png [QSA,L]
+RewriteRule ^browserconfig\.xml /wp-content/uploads/fbrfg/browserconfig.xml [QSA,L]
+RewriteRule ^favicon-16x16\.png /wp-content/uploads/fbrfg/favicon-16x16.png [QSA,L]
+RewriteRule ^favicon-32x32\.png /wp-content/uploads/fbrfg/favicon-32x32.png [QSA,L]
+RewriteRule ^favicon\.ico /wp-content/uploads/fbrfg/favicon.ico [QSA,L]
+RewriteRule ^mstile-150x150\.png /wp-content/uploads/fbrfg/mstile-150x150.png [QSA,L]
+RewriteRule ^safari-pinned-tab\.svg /wp-content/uploads/fbrfg/safari-pinned-tab.svg [QSA,L]
+RewriteRule ^site\.webmanifest /wp-content/uploads/fbrfg/site.webmanifest [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

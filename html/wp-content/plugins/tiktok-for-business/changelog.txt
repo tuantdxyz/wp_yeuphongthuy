@@ -1,0 +1,27 @@
+*** Changelog ***
+2022-08-10 - version 1.0.7
+* Fix - Performance issue related to catalog syncing and signal tracking 
+* Tweak - Remove admin notice for file error
+
+2022-08-04 - version 1.0.6
+* Update - Admin notice for file error fix
+
+2022-07-25 - version 1.0.5
+* Fix - Disconnection on upgrade error
+
+2022-07-18 - version 1.0.4
+* Fix - Catalog syncing issues  .0.7
+* Tweak - Show launch page when Ad Blocker is enabled
+* Tweak - Updated signal and event tracking
+
+2022-06-29 - version 1.0.3
+* Tweak - Updated signal and event tracking
+
+2022-06-15 - version 1.0.2
+* Fix - Update Pixel Event instrumentation to fire correctly
+
+2022-05-24 - version 1.0.1
+* Fix - Installation errors
+
+2022-04-15 - version 1.0.0
+* Initial release
